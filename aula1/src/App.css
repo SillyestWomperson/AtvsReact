@@ -1,0 +1,50 @@
+.App {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.App h1 {
+    color: #222;
+}
+
+.App h1,
+.App h4 {
+    color: #444;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.App > p {
+    font-weight: bold;
+    color: #0056b3;
+    margin-top: 15px;
+}
+
+.App div p {
+    color: #555;
+    line-height: 1.6;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.SillyImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0.3s ease-in-out;
+}
+
+.SillyImg:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
